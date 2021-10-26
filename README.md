@@ -21,7 +21,7 @@ Dans ce tutoriel **HTML CSS**, nous avons pour souhait de vous introduire un out
 Pour suivre ce tutoriel, il est nécessaire d'avoir les connaissances de base en **HTML5** et en **CSS3**. Par ailleurs, le langage JavaScript ou JS sera évoqué à de multiples reprises, mais **aucune notion de JS n'est nécessaire**, et aucun fichier JS ne sera créé ou modifié.
 
 
-# 1) Présentation de **Font Awesome*et des icônes vectoriels
+# 1) Présentation de ***Font Awesome** et des icônes vectoriels
 
 **Font Awesome** ou *FA* est un outil accessible depuis 2012 permettant l'implémentation de divers **icônes** dans votre code HTML avec CSS *(même s'il est possible de l'utiliser avec n'importe quel logiciel faisant usage de polices, tel que Word ou n'importe quel logiciel d'édition d'images)*, et ce sous la forme justement d'une **police d'écriture**, ou bien avec des images vectorielles sous la forme d'un fichier **.svg** (Scalable Vector Graphics). Ne soyez pas intimidé par les mots compliqués, on vous expliquera tout en temps et en heure !
 
