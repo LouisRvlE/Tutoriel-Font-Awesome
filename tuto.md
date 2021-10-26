@@ -1,4 +1,3 @@
-"# Tutoriel-Font-Awesome" 
 # **HTML / CSS : icônes personnalisés**
 ## Apprendre à se servir de Font Awesome
 
