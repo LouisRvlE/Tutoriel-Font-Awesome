@@ -20,10 +20,8 @@ Dans ce tutoriel **HTML CSS**, nous avons pour souhait de vous introduire un out
 
 Pour suivre ce tutoriel, il est nécessaire d'avoir les connaissances de base en **HTML5** et en **CSS3**. Par ailleurs, le langage JavaScript ou JS sera évoqué à de multiples reprises, mais **aucune notion de JS n'est nécessaire**, et aucun fichier JS ne sera créé ou modifié.
 
-<br>
-<br>
 
-# 1) Présentation de **Font Awesome**<br>et des icônes vectoriels
+# 1) Présentation de **Font Awesome*et des icônes vectoriels
 
 **Font Awesome** ou *FA* est un outil accessible depuis 2012 permettant l'implémentation de divers **icônes** dans votre code HTML avec CSS *(même s'il est possible de l'utiliser avec n'importe quel logiciel faisant usage de polices, tel que Word ou n'importe quel logiciel d'édition d'images)*, et ce sous la forme justement d'une **police d'écriture**, ou bien avec des images vectorielles sous la forme d'un fichier **.svg** (Scalable Vector Graphics). Ne soyez pas intimidé par les mots compliqués, on vous expliquera tout en temps et en heure !
 
@@ -32,19 +30,6 @@ Font Awesome met à disposition un site web doté d'une base de données proposa
 Commençons par définir ce qu'est **un icône vectoriel** *(et non je ne vous ai pas oublié)*. Un icône vectoriel, en informatique, c'est une image composée d'objets géométriques, c'est-à-dire des segments, des arcs de cercle ou encore des courbes; auxquels on peut appliquer différentes transformations, telles que des dégradés, des agrandissements, des inclinaisons ou encore des effets miroir. L'îcone vectoriel se différencie en cela des images matricielles, qui sont constituées de pixels et qui sont donc moins maléables.
 
 Pas de panique, nous n'allons pas en créer, juste modifier ses valeurs de base, telles que sa couleur, son orientation et autre.
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ![inter2](./image_entre2.png)
 
@@ -128,30 +113,6 @@ Si par contre vous souhaitez utiliser des images vectorielles en **SVG**, il fau
 </head>
 ```
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 ![inter3](./image_entre3.png)
 
@@ -169,20 +130,6 @@ Et voici le résultat qui s'affiche sur votre page :
 
 ![image_1_exemple_loupe](./image_1_exemple_loupe.png)
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ![inter4](./image_entre4.png)
 
@@ -211,9 +158,6 @@ Ce qui donne :
 Ici le code CSS est directement rentré dans la balise, mais il est toujours possible d'attribuer une class ou un ID en particulier, comme pour tout code css.
 
 
-
-
-
 #### > La taille *en SVG*
 En SVG, nos icônes ne sont plus considérés comme des éléments textuels mais comme des images, il faudra donc réadapter notre manière de coder notre fichier css.
 Il n'est donc plus possible d'utiliser la propriété `font-size` pour modifier la taille de notre image. Il faudra plutôt utiliser des propriétés de tailles standard `width` et `height`.
@@ -236,12 +180,6 @@ Ce qui donne :
 
 Et le tour est joué !
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 #### > Class communes aux polices et à SVG
 
@@ -272,7 +210,6 @@ Affichant pour résultat :
 
 
 
-
 ### **La couleur**
 #### > La couleur *en police d'écriture*
 Pour changer la couleur de l'icône, il faudra simplement utiliser le tag CSS `color`, de cette manière :
@@ -282,7 +219,6 @@ Pour changer la couleur de l'icône, il faudra simplement utiliser le tag CSS `c
 ![image_4_exemple_camera3](./image_4_exemple_camera3.png)
 
 Ici le code CSS est directement tappé dans la balise, mais il est toujours possible d'y attribuer une class ou un ID particulier, et ce comme pour tout code CSS.
-
 
 
 #### > La couleur *en SVG*
@@ -296,8 +232,6 @@ svg.custom-class {
 <i class="fas fa-camera custom-class"></i>
 ```
 ![image_4_exemple_camera3](./image_4_exemple_camera3.png)
-
-
 
 
 ### **L'orientation**
@@ -344,7 +278,6 @@ Pour combiner les deux, il faut impérativement utiliser des marqueurs suppléme
   </span>
 
 ```
-<br>
 
 ```html
   <!-- Un icône qui est retourné à la verticale et à 270° -->
@@ -381,7 +314,6 @@ Pour chaque icône, il faut ajouter une class `fa-stack-<nombre>x` où <nombre> 
 Vous pouvez aussi inverser cet icône, c'est à dire que l'îcone qui lui est superposée sera retirée, afin qu'il soit visible même en étant à l'intérieur de l'autre.
 
 Cet effet peut être reproduit en donnant simplement une autre couleur à l'icône.
-<br>
 
 ```html
 <span class="fa-stack fa-2x">
@@ -406,51 +338,14 @@ Pour le second :
 - le premier icône est une caméra, de taille simple (`fa-stack-1x`).
 - le second est un "ban", de taille double (`fa-stack-2x`) et de couleur tomate (`style="color:Tomato"`)
 
-
-
-
-<br>
-<br>
-<br>
-<br>
-
 ![inter5](./image_entre5.png)
+
+
 
 # 5) Conclusion
 
 Comme vous l'aurez compris, Font Awesome est un réel plus à apporter à votre site web, et cet outil mérite une attention toute particulière. Nous espérons que cet article aura facilité vos recherches, et sommes certains que les informations qu'il vous a délivré auront contribué à agrandir votre champs des possibles. Félicitations, vous êtes maintenant fin prêt à implémenter toutes sortes d'icônes dans vos projets HTML / CSS pour qu'ils vous ressemblent mieux.
 
 Merci d'avoir lu !
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 ![inter6](./image_entre6.png)
