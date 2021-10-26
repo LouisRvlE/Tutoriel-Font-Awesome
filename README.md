@@ -46,7 +46,7 @@ Pas de panique, nous n'allons pas en créer, juste modifier ses valeurs de base,
 <br>
 <br>
 
-![inter2](./image_entre2.jpg)
+![inter2](./image_entre2.png)
 
 # 2) Intégrer Font Awesome à son fichier HTML
 
@@ -55,7 +55,7 @@ Il existe différentes manières d'intégrer Font Awesome à son site :
 ### **- Récupérer FA par Kit code**
 Pour cette méthode, commençons par créer un compte **Font Awesome**. Une fois cela fait rendons nous sur la page suivante [fontawesome.com/start](https://fontawesome.com/start). Il nous sera alors demandé de fournir le nom du projet pour lequel les icônes seront amenées à servir, à noter que le nom de ce projet n'a aucune importance dans le processus d'obtention des icônes.
 
-![create_kit](./create_kit.jpg)
+![create_kit](./create_kit.png)
 
 Enfin, nous reçevons ce que l'équipe de Font Awesome appelle un **"kit code"**, il s'agit ni plus ni moins d'un lien vers un script javascript de la forme suivante :
 ```HTML
@@ -153,7 +153,7 @@ Si par contre vous souhaitez utiliser des images vectorielles en **SVG**, il fau
 <br>
 
 
-![inter3](./image_entre3.jpg)
+![inter3](./image_entre3.png)
 
 # 3) Implémentation d'une icône
 
@@ -167,7 +167,7 @@ Pour l'icône loupe par exemple, le code sera :
 ```
 Et voici le résultat qui s'affiche sur votre page :
 
-![image_1_exemple_loupe](./image_1_exemple_loupe.jpg)
+![image_1_exemple_loupe](./image_1_exemple_loupe.png)
 
 <br>
 <br>
@@ -184,7 +184,7 @@ Et voici le résultat qui s'affiche sur votre page :
 <br>
 <br>
 
-![inter4](./image_entre4.jpg)
+![inter4](./image_entre4.png)
 
 # 4) Personnalisation d'un icône
 
@@ -205,7 +205,7 @@ La taille de votre icône dépendra du tag CSS `font-size`, qui peut être attri
 ```
 Ce qui donne : 
 
-![image_2_exemple_camera1](./image_2_exemple_camera1.jpg)
+![image_2_exemple_camera1](./image_2_exemple_camera1.png)
 
 
 Ici le code CSS est directement rentré dans la balise, mais il est toujours possible d'attribuer une class ou un ID en particulier, comme pour tout code css.
@@ -232,7 +232,7 @@ svg.custom-class {
 ```
 Ce qui donne : 
 
-![image_2_exemple_camera1](./image_2_exemple_camera1.jpg)
+![image_2_exemple_camera1](./image_2_exemple_camera1.png)
 
 Et le tour est joué !
 
@@ -268,7 +268,7 @@ Il existe aussi un ensemble de class prédéfinies, permettant de changer la tai
 ```
 Affichant pour résultat :
 
-![image_3_exemple_camera2](./image_3_exemple_camera2.jpg)
+![image_3_exemple_camera2](./image_3_exemple_camera2.png)
 
 
 
@@ -279,7 +279,7 @@ Pour changer la couleur de l'icône, il faudra simplement utiliser le tag CSS `c
 ```html
 <i style="color:blue" class="fas fa-camera"></i> 
 ```
-![image_4_exemple_camera3](./image_4_exemple_camera3.jpg)
+![image_4_exemple_camera3](./image_4_exemple_camera3.png)
 
 Ici le code CSS est directement tappé dans la balise, mais il est toujours possible d'y attribuer une class ou un ID particulier, et ce comme pour tout code CSS.
 
@@ -295,7 +295,7 @@ svg.custom-class {
 ```html
 <i class="fas fa-camera custom-class"></i>
 ```
-![image_4_exemple_camera3](./image_4_exemple_camera3.jpg)
+![image_4_exemple_camera3](./image_4_exemple_camera3.png)
 
 
 
@@ -327,7 +327,7 @@ Comme ceci :
 <i class="fas fa-snowboarding fa-rotate-by"
     style="--fa-rotate-angle: 45deg;"></i>
 ```
-![image_5_exemple_snow1](./image_5_exemple_snow1.jpg)
+![image_5_exemple_snow1](./image_5_exemple_snow1.png)
 
 Le tag `fa-rotate-**by**` permet de choisir nous même l'angle de rotation, en passant par le style : `style="--fa-rotate-angle: 45deg;"`
 
@@ -367,7 +367,7 @@ Pour combiner les deux, il faut impérativement utiliser des marqueurs suppléme
   </span>
 ```
 
-![image_6_exemple_snow2](./image_6_exemple_snow2.jpg)
+![image_6_exemple_snow2](./image_6_exemple_snow2.png)
 
 
 ### Superposition
@@ -394,7 +394,7 @@ Cet effet peut être reproduit en donnant simplement une autre couleur à l'icô
   <!-- RAPPEL: le style ne peut être attribué de la sorte que si vous utilisez une police. L'équivalent en utilisant le SVG nécessiterait de changer d'endroit pour l'écrire. -->
 </span>
 ```
-![image_7_exemple_stack1](./image_7_exemple_stack1.jpg)
+![image_7_exemple_stack1](./image_7_exemple_stack1.png)
 
 Dans ce premier exemple :
 - l'icône stack a une taille double (`fa-2x`)
@@ -414,7 +414,7 @@ Pour le second :
 <br>
 <br>
 
-![inter5](./image_entre5.jpg)
+![inter5](./image_entre5.png)
 
 # 5) Conclusion
 
@@ -453,4 +453,4 @@ Merci d'avoir lu !
 <br>
 
 
-![inter6](./image_entre6.jpg)
+![inter6](./image_entre6.png)
