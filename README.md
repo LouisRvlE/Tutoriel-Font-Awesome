@@ -10,11 +10,11 @@ Dans ce tutoriel **HTML CSS**, nous avons pour souhait de vous introduire un out
 
 ## Glossaire
 
-1) **Présentation de Font Awesome et des icônes vectoriels**
-2) **Intégrer Font Awesome à son fichier HTML**
-3) **Implémentation d'un icône**
-4) **Personnalisation d'un icône**
-5) **Conclusion**
+1) [**Présentation de Font Awesome et des icônes vectoriels**](https://github.com/LouisRvlE/Tutoriel-Font-Awesome#1-pr%C3%A9sentation-de-font-awesome-et-des-ic%C3%B4nes-vectoriels)
+2) [**Intégrer Font Awesome à son fichier HTML**](https://github.com/LouisRvlE/Tutoriel-Font-Awesome#2-int%C3%A9grer-font-awesome-%C3%A0-son-fichier-html)
+3) [**Implémentation d'un icône**](https://github.com/LouisRvlE/Tutoriel-Font-Awesome#3-impl%C3%A9mentation-dune-ic%C3%B4ne)
+4) [**Personnalisation d'un icône**](https://github.com/LouisRvlE/Tutoriel-Font-Awesome#4-personnalisation-dun-ic%C3%B4ne)
+5) [**Conclusion**](https://github.com/LouisRvlE/Tutoriel-Font-Awesome#5-conclusion)
 
 ### **Prérequis**
 
